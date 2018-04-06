@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.claudemonetwaterliliesquiz.quizContent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/quiz_content_image_1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/the_water_lilies__the_clouds" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/quiz_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oswald_light"
+                android:gravity="center"
+                android:text="@string/main_quiz_title"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="38sp" />
+
+            <TextView
+                android:id="@+id/quiz_description"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="36dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/open_sans"
+                android:gravity="start"
+                android:text="@string/quiz_description"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/open_sans"
+                android:gravity="center"
+                android:text="@string/question_01_title"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/question_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/open_sans"
+                    android:gravity="start"
+                    android:text="@string/question_01"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/question_1_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@null"
+                    android:contentDescription="@string/hint_icon_question1"
+                    android:onClick="hintQuestion1"
+                    android:src="@drawable/hint_icon_32dp" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/answer_01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/open_sans"
+                android:hint="@string/answer_01_hint"
+                android:imeOptions="actionDone"
+                android:inputType="textCapWords"
+                android:paddingBottom="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/open_sans"
+                android:gravity="center"
+                android:text="@string/question_02_title"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/question_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/open_sans"
+                    android:gravity="start"
+                    android:text="@string/question_02"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/question_2_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@null"
+                    android:contentDescription="@string/hint_icon_question2"
+                    android:onClick="hintQuestion2"
+                    android:src="@drawable/hint_icon_32dp" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/CheckBox2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:checked="false"
+                android:fontFamily="@font/open_sans"
+                android:paddingEnd="0dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="0dp"
+                android:paddingStart="8dp"
+                android:text="@string/answer_02a"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/CheckBox2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:checked="false"
+                android:fontFamily="@font/open_sans"
+                android:paddingEnd="0dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="0dp"
+                android:paddingStart="8dp"
+                android:text="@string/answer_02b"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/CheckBox2c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:checked="false"
+                android:fontFamily="@font/open_sans"
+                android:paddingEnd="0dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="0dp"
+                android:paddingStart="8dp"
+                android:text="@string/answer_02c"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/open_sans"
+                android:gravity="center"
+                android:text="@string/question_03_title"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/question_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/open_sans"
+                    android:gravity="start"
+                    android:text="@string/question_03"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/question_3_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@null"
+                    android:contentDescription="@string/hint_icon_question3"
+                    android:onClick="hintQuestion3"
+                    android:src="@drawable/hint_icon_32dp" />
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/answer3a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/open_sans"
+                    android:text="@string/answer_03a"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/answer3b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/open_sans"
+                    android:text="@string/answer_03b"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/answer3c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/open_sans"
+                    android:text="@string/answer_03c"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/open_sans"
+                android:gravity="center"
+                android:text="@string/question_04_title"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/question_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/open_sans"
+                    android:gravity="start"
+                    android:text="@string/question_04"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/question_4_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@null"
+                    android:contentDescription="@string/hint_icon_question4"
+                    android:onClick="hintQuestion4"
+                    android:src="@drawable/hint_icon_32dp" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/CheckBox4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:checked="false"
+                android:fontFamily="@font/open_sans"
+                android:paddingEnd="0dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="0dp"
+                android:paddingStart="8dp"
+                android:text="@string/answer_04a"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/CheckBox4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:checked="false"
+                android:fontFamily="@font/open_sans"
+                android:paddingEnd="0dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="0dp"
+                android:paddingStart="8dp"
+                android:text="@string/answer_04b"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/CheckBox4c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:checked="false"
+                android:fontFamily="@font/open_sans"
+                android:paddingEnd="0dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="0dp"
+                android:paddingStart="8dp"
+                android:text="@string/answer_04c"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/open_sans"
+                android:gravity="center"
+                android:text="@string/question_05_title"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/question_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/open_sans"
+                    android:gravity="start"
+                    android:text="@string/question_05"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/question_5_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@null"
+                    android:contentDescription="@string/hint_icon_question5"
+                    android:onClick="hintQuestion5"
+                    android:src="@drawable/hint_icon_32dp" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/answer_05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/open_sans"
+                android:hint="@string/answer_05_hint"
+                android:imeOptions="actionDone"
+                android:inputType="textCapWords"
+                android:paddingBottom="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/open_sans"
+                android:gravity="center"
+                android:text="@string/question_06_title"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/question_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/open_sans"
+                    android:gravity="start"
+                    android:text="@string/question_06"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/question_6_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@null"
+                    android:contentDescription="@string/hint_icon_question6"
+                    android:onClick="hintQuestion6"
+                    android:src="@drawable/hint_icon_32dp" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/CheckBox6a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:checked="false"
+                android:fontFamily="@font/open_sans"
+                android:paddingEnd="0dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="0dp"
+                android:paddingStart="8dp"
+                android:text="@string/answer_06a"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/CheckBox6b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:checked="false"
+                android:fontFamily="@font/open_sans"
+                android:paddingEnd="0dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="0dp"
+                android:paddingStart="8dp"
+                android:text="@string/answer_06b"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/CheckBox6c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:checked="false"
+                android:fontFamily="@font/open_sans"
+                android:paddingEnd="0dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="0dp"
+                android:paddingStart="8dp"
+                android:text="@string/answer_06c"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/open_sans"
+                android:gravity="center"
+                android:text="@string/question_07_title"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/question_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/open_sans"
+                    android:gravity="start"
+                    android:text="@string/question_07"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/question_7_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@null"
+                    android:contentDescription="@string/hint_icon_question7"
+                    android:onClick="hintQuestion7"
+                    android:src="@drawable/hint_icon_32dp" />
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/answer7a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/open_sans"
+                    android:text="@string/answer_07a"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/answer7b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/open_sans"
+                    android:text="@string/answer_07b"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/answer7c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/open_sans"
+                    android:text="@string/answer_07c"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/order_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/rounded_btn_bkg"
+                android:fontFamily="@font/oswald_light"
+                android:onClick="submitAnswers"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/submit_answers"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.claudemonetwaterliliesquiz.mainContent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/main_content_image_1"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/the_water_lilies__the_clouds" />
+
+        <TextView
+            android:id="@+id/artist_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oswald_light"
+            android:gravity="center"
+            android:text="@string/app_main_artist_title"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="38sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oswald"
+            android:gravity="center"
+            android:text="@string/app_main_subject_title"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="48dp"
+            android:fontFamily="@font/oswald"
+            android:lineSpacingExtra="10sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/main_content_subhead_1"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/open_sans"
+            android:lineSpacingExtra="6sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/monet_great_project_first"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="24dp"
+            android:baselineAligned="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingStart="20dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/main_content_inset_1_description"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/the_water_lilies_the_clouds_inset_crop" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:fontFamily="@font/oswald"
+                    android:gravity="center_vertical"
+                    android:paddingEnd="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/trees_reflections_inset_artist"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/oswald"
+                    android:gravity="center_vertical"
+                    android:paddingEnd="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/clouds_inset_title"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/open_sans"
+                    android:gravity="center_vertical"
+                    android:paddingEnd="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/trees_reflections_inset_year"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/open_sans"
+            android:lineSpacingExtra="6sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/monet_great_project_second"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/main_content_image_2"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/the_water_lilies_green_reflections" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/oswald"
+            android:lineSpacingExtra="10sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/main_content_subhead_2"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/open_sans"
+            android:lineSpacingExtra="6sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/eight_panels_first"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="24dp"
+            android:baselineAligned="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingStart="20dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:fontFamily="@font/oswald"
+                    android:gravity="center_vertical|end"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/trees_reflections_inset_artist"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/oswald"
+                    android:gravity="center_vertical|end"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/trees_reflections_inset_title"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/open_sans"
+                    android:gravity="center_vertical|end"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/trees_reflections_inset_year"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/main_content_inset_image_2_description"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/inset_image_01" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/open_sans"
+            android:lineSpacingExtra="6sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/eight_panels_second"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/main_content_image_3_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/the_water_lilies_morning" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/oswald"
+            android:lineSpacingExtra="10sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/main_content_subhead_3"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/open_sans"
+            android:lineSpacingExtra="6sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/posterity_first"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="24dp"
+            android:baselineAligned="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingStart="20dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/main_content_inset_3_description"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/water_lilies_morning_inset" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:fontFamily="@font/oswald"
+                    android:gravity="center_vertical"
+                    android:paddingEnd="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/trees_reflections_inset_artist"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/oswald"
+                    android:gravity="center_vertical"
+                    android:paddingEnd="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/water_lilies_morning_inset_title"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/open_sans"
+                    android:gravity="center_vertical"
+                    android:paddingEnd="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/trees_reflections_inset_year"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/open_sans"
+            android:lineSpacingExtra="6sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/posterity_second"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/order_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="48dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/rounded_btn_bkg"
+            android:fontFamily="@font/oswald_light"
+            android:onClick="takeQuiz"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/test_your_knowledge_button_text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
