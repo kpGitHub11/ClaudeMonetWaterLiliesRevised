@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--   content artist title font size -->
+    <dimen name="content_artist_title">38sp</dimen>
+
+    <!--   content app subject font size -->
+    <dimen name="content_app_subject">20sp</dimen>
+
+    <!--   content subhead font size -->
+    <dimen name="content_subhead">20sp</dimen>
+
+    <!--   content body copy font size -->
+    <dimen name="content_body_copy">16sp</dimen>
+
+    <!--   content body copy extra line spacing -->
+    <dimen name="content_body_copy_xtra_line_spacing">6sp</dimen>
+
+    <!--   content inset artist name font size -->
+    <dimen name="content_inset_image_artist_name">16sp</dimen>
+
+    <!--   content inset artwork title font size -->
+    <dimen name="content_inset_artwork_name">14sp</dimen>
+
+    <!--   content inset artwork year font size -->
+    <dimen name="content_inset_artwork_year">12sp</dimen>
+
+    <!--   content inset text padding -->
+    <dimen name="content_inset_text_padding">16dp</dimen>
+
+    <!--   content text padding -->
+    <dimen name="content_text_padding">20dp</dimen>
+
+</resources>

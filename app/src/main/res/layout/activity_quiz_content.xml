@@ -24,8 +24,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp">
+            android:paddingLeft="@dimen/content_text_padding"
+            android:paddingRight="@dimen/content_text_padding">
 
             <TextView
                 android:id="@+id/quiz_title"
@@ -60,7 +60,7 @@
                 android:text="@string/question_01_title"
                 android:textAllCaps="true"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp"
+                android:textSize="@dimen/content_body_copy"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -80,7 +80,7 @@
                     android:gravity="start"
                     android:text="@string/question_01"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
                 <ImageButton
                     android:id="@+id/question_1_hint"
@@ -105,7 +105,7 @@
                 android:inputType="textCapWords"
                 android:paddingBottom="16dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -116,7 +116,7 @@
                 android:text="@string/question_02_title"
                 android:textAllCaps="true"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp"
+                android:textSize="@dimen/content_body_copy"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -136,7 +136,7 @@
                     android:gravity="start"
                     android:text="@string/question_02"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
                 <ImageButton
                     android:id="@+id/question_2_hint"
@@ -178,7 +178,7 @@
                 android:paddingStart="8dp"
                 android:text="@string/answer_02b"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <CheckBox
                 android:id="@+id/CheckBox2c"
@@ -193,7 +193,7 @@
                 android:paddingStart="8dp"
                 android:text="@string/answer_02c"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -204,7 +204,7 @@
                 android:text="@string/question_03_title"
                 android:textAllCaps="true"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp"
+                android:textSize="@dimen/content_body_copy"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -252,7 +252,7 @@
                     android:fontFamily="@font/open_sans"
                     android:text="@string/answer_03a"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
                 <RadioButton
                     android:id="@+id/answer3b"
@@ -262,7 +262,7 @@
                     android:fontFamily="@font/open_sans"
                     android:text="@string/answer_03b"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
                 <RadioButton
                     android:id="@+id/answer3c"
@@ -286,7 +286,7 @@
                 android:text="@string/question_04_title"
                 android:textAllCaps="true"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp"
+                android:textSize="@dimen/content_body_copy"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -306,7 +306,7 @@
                     android:gravity="start"
                     android:text="@string/question_04"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
                 <ImageButton
                     android:id="@+id/question_4_hint"
@@ -333,7 +333,7 @@
                 android:paddingStart="8dp"
                 android:text="@string/answer_04a"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <CheckBox
                 android:id="@+id/CheckBox4b"
@@ -363,7 +363,7 @@
                 android:paddingStart="8dp"
                 android:text="@string/answer_04c"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -374,7 +374,7 @@
                 android:text="@string/question_05_title"
                 android:textAllCaps="true"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp"
+                android:textSize="@dimen/content_body_copy"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -394,7 +394,7 @@
                     android:gravity="start"
                     android:text="@string/question_05"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
                 <ImageButton
                     android:id="@+id/question_5_hint"
@@ -419,7 +419,7 @@
                 android:inputType="textCapWords"
                 android:paddingBottom="16dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -430,7 +430,7 @@
                 android:text="@string/question_06_title"
                 android:textAllCaps="true"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp"
+                android:textSize="@dimen/content_body_copy"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -450,7 +450,7 @@
                     android:gravity="start"
                     android:text="@string/question_06"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
                 <ImageButton
                     android:id="@+id/question_6_hint"
@@ -477,7 +477,7 @@
                 android:paddingStart="8dp"
                 android:text="@string/answer_06a"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <CheckBox
                 android:id="@+id/CheckBox6b"
@@ -492,7 +492,7 @@
                 android:paddingStart="8dp"
                 android:text="@string/answer_06b"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <CheckBox
                 android:id="@+id/CheckBox6c"
@@ -518,7 +518,7 @@
                 android:text="@string/question_07_title"
                 android:textAllCaps="true"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp"
+                android:textSize="@dimen/content_body_copy"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -538,7 +538,7 @@
                     android:gravity="start"
                     android:text="@string/question_07"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
                 <ImageButton
                     android:id="@+id/question_7_hint"
@@ -576,7 +576,7 @@
                     android:fontFamily="@font/open_sans"
                     android:text="@string/answer_07b"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
                 <RadioButton
                     android:id="@+id/answer7c"
@@ -586,7 +586,7 @@
                     android:fontFamily="@font/open_sans"
                     android:text="@string/answer_07c"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
             </RadioGroup>
 

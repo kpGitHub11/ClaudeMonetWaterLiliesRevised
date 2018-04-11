@@ -66,7 +66,7 @@
                     android:text="@string/question_01_title"
                     android:textAllCaps="true"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/content_body_copy"
                     android:textStyle="bold" />
 
                 <TextView
@@ -101,7 +101,7 @@
                     android:gravity="start"
                     android:text="@string/question_01"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
 
             </LinearLayout>
@@ -126,7 +126,7 @@
                 android:fontFamily="@font/open_sans"
                 android:gravity="start"
                 android:text=""
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -142,7 +142,7 @@
                     android:text="@string/question_02_title"
                     android:textAllCaps="true"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/content_body_copy"
                     android:textStyle="bold" />
 
                 <TextView
@@ -177,7 +177,7 @@
                     android:gravity="start"
                     android:text="@string/question_02"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
 
             </LinearLayout>
@@ -222,7 +222,7 @@
                 android:paddingStart="8dp"
                 android:text="@string/answer_02c"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <TextView
                 android:id="@+id/question_2_correct_answer"
@@ -234,7 +234,7 @@
                 android:gravity="start"
                 android:text=""
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -250,7 +250,7 @@
                     android:text="@string/question_03_title"
                     android:textAllCaps="true"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/content_body_copy"
                     android:textStyle="bold" />
 
                 <TextView
@@ -286,7 +286,7 @@
                     android:gravity="start"
                     android:text="@string/question_03"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
 
             </LinearLayout>
@@ -305,7 +305,7 @@
                     android:fontFamily="@font/open_sans"
                     android:text="@string/answer_03a"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
                 <RadioButton
                     android:id="@+id/answer3b"
@@ -315,7 +315,7 @@
                     android:fontFamily="@font/open_sans"
                     android:text="@string/answer_03b"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
                 <RadioButton
                     android:id="@+id/answer3c"
@@ -325,7 +325,7 @@
                     android:fontFamily="@font/open_sans"
                     android:text="@string/answer_03c"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
             </RadioGroup>
 
@@ -339,7 +339,7 @@
                 android:gravity="start"
                 android:text=""
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -355,7 +355,7 @@
                     android:text="@string/question_04_title"
                     android:textAllCaps="true"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/content_body_copy"
                     android:textStyle="bold" />
 
                 <TextView
@@ -369,7 +369,7 @@
                     android:text=""
                     android:textAllCaps="true"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/content_body_copy"
                     android:textStyle="bold|italic" />
 
             </LinearLayout>
@@ -405,7 +405,7 @@
                 android:paddingStart="8dp"
                 android:text="@string/answer_04a"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <CheckBox
                 android:id="@+id/CheckBox4b"
@@ -419,7 +419,7 @@
                 android:paddingStart="8dp"
                 android:text="@string/answer_04b"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <CheckBox
                 android:id="@+id/CheckBox4c"
@@ -433,7 +433,7 @@
                 android:paddingStart="8dp"
                 android:text="@string/answer_04c"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <TextView
                 android:id="@+id/question_4_correct_answer"
@@ -461,7 +461,7 @@
                     android:text="@string/question_05_title"
                     android:textAllCaps="true"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/content_body_copy"
                     android:textStyle="bold" />
 
                 <TextView
@@ -475,7 +475,7 @@
                     android:text=""
                     android:textAllCaps="true"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/content_body_copy"
                     android:textStyle="bold|italic" />
 
             </LinearLayout>
@@ -497,7 +497,7 @@
                     android:gravity="start"
                     android:text="@string/question_05"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
 
             </LinearLayout>
@@ -511,7 +511,7 @@
                 android:paddingBottom="16dp"
                 android:text=""
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <TextView
                 android:id="@+id/question_5_correct_answer"
@@ -523,7 +523,7 @@
                 android:gravity="start"
                 android:text=""
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -539,7 +539,7 @@
                     android:text="@string/question_06_title"
                     android:textAllCaps="true"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/content_body_copy"
                     android:textStyle="bold" />
 
                 <TextView
@@ -553,7 +553,7 @@
                     android:text=""
                     android:textAllCaps="true"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/content_body_copy"
                     android:textStyle="bold|italic" />
 
             </LinearLayout>
@@ -592,7 +592,7 @@
                 android:paddingStart="8dp"
                 android:text="@string/answer_06a"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <CheckBox
                 android:id="@+id/CheckBox6b"
@@ -620,7 +620,7 @@
                 android:paddingStart="8dp"
                 android:text="@string/answer_06c"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <TextView
                 android:id="@+id/question_6_correct_answer"
@@ -648,7 +648,7 @@
                     android:text="@string/question_07_title"
                     android:textAllCaps="true"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/content_body_copy"
                     android:textStyle="bold" />
 
                 <TextView
@@ -662,7 +662,7 @@
                     android:text=""
                     android:textAllCaps="true"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/content_body_copy"
                     android:textStyle="bold|italic" />
 
             </LinearLayout>
@@ -684,7 +684,7 @@
                     android:gravity="start"
                     android:text="@string/question_07"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
             </LinearLayout>
 
@@ -702,7 +702,7 @@
                     android:fontFamily="@font/open_sans"
                     android:text="@string/answer_07a"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
                 <RadioButton
                     android:id="@+id/answer7b"
@@ -712,7 +712,7 @@
                     android:fontFamily="@font/open_sans"
                     android:text="@string/answer_07b"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
                 <RadioButton
                     android:id="@+id/answer7c"
@@ -722,7 +722,7 @@
                     android:fontFamily="@font/open_sans"
                     android:text="@string/answer_07c"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/content_body_copy" />
 
             </RadioGroup>
 
@@ -748,7 +748,7 @@
                 android:gravity="start"
                 android:text="@string/quiz_final_summary"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="@dimen/content_body_copy" />
 
             <Button
                 android:id="@+id/order_button"
@@ -762,7 +762,7 @@
                 android:onClick="learnMoreOnline"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
-                android:text="@string/learn_more_online"
+                android:text=  "@string/learn_more_online"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="18sp"
                 android:textStyle="bold" />
